@@ -20,8 +20,8 @@ export default function Home({allData}) {
     <h1 className="m-3">Lists</h1>
     <div className="list-group mx-3">
       {allData.map(({id, character}) =>(
-        <Link href={`/${id}`}>
-          <a key={id} className='list-group-item'>{character}</a>
+        <Link key={id} href={`/${id}`}>
+          <a className='list-group-item'>{character}</a>
         </Link>
       ))}
     </div>

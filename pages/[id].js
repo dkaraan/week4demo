@@ -1,5 +1,5 @@
 import Head from 'next/head';
-//import Layout from '../components/layout';
+import Layout from '../components/layout';
 
 
 //import getAllIds function
@@ -38,17 +38,19 @@ export async function getStaticPaths(){
 //react component with the data acquired
 export default function Entry({ itemData }){
   return(
+    <Layout>
   <article className="card col-6">
     <div className="card-body">
       <h5 className="card-title">
-        <a href="https://finalfantasy.fandom.com/wiki/Ryne">{itemData.character}</a>
+        {itemData.character}
       </h5>
       <h6 className="card-subtitled mb-2 text-text-muted">
-        <a href="https://en.wikipedia.org/wiki/Final_Fantasy_XIV:_Shadowbringers">{itemData.game}</a>
+        {itemData.game}
       </h6>
       <p className="card-text">{itemData.year}</p>
       <p className="card-text">{itemData.genre}</p>
     </div>
   </article>
+  </Layout>
   );
 }
