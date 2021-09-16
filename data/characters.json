@@ -1,0 +1,30 @@
+[
+  {
+    "character": "Ryne",
+    "game": "Final Fantasy 14: Shadowbringers",
+    "genre": "mmorpg",
+    "year": "2019",
+    "id":1
+  },
+  {
+    "character": "Pyrrha Alexandra",
+    "game": "SoulCalibur V",
+    "genre": "fighting game",
+    "year":"2012",
+    "id":2
+  },
+  {
+    "character": "Joel",
+    "game": "The Last of Us",
+    "genre": "stealth game, survival horror",
+    "year": "2013",
+    "id":3
+  },
+    {
+    "character": "Ethan Mars",
+    "game": "Heavy Rain",
+    "genre": "interactive drama",
+    "year": "2010",
+    "id":4
+  }
+]

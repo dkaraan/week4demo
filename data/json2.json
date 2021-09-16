@@ -1,0 +1,16 @@
+[
+  {
+    "character": "Joel",
+    "game": "The Last of Us",
+    "genre": "stealth game, survival horror",
+    "year": "2013",
+    "id":3
+  },
+    {
+    "character": "Ethan Mars",
+    "game": "Heavy Rain",
+    "genre": "interactive drama",
+    "year": "2010",
+    "id":4
+  }
+]
